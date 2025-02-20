@@ -31,4 +31,4 @@ This is a simple web application that displays the AI & ML IV Semester Timetable
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the Apache License.
