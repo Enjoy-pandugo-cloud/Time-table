@@ -13,12 +13,12 @@ This is a simple web application that displays the AI & ML IV Semester Timetable
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Enjoy-pandugo-cloud/AI-ML-Timetable.git
+   git clone https://github.com/Enjoy-pandugo-cloud/Time-table.git
    ```
 
 2. Navigate to the project directory:
    ```bash
-   cd AI-ML-Timetable
+   cd Time-table
    ```
 
 3. Open the `index.html` file in your preferred web browser.
