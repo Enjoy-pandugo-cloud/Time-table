@@ -1,5 +1,6 @@
 <h1 align="center">Hey <img src="https://github.com/user-attachments/assets/64380716-228e-4a70-b272-78c9f89deb14" width="30px">, I'm Sathya Sai <img src="https://github.com/user-attachments/assets/e5332fcd-0795-42d4-95d6-9e368600cbcc" width="40px">!</h1>
 Hey, My Name is Sathya Sai, I'm a second year AI & ML student at Govt. Institute of Electronics. I am a Tech Enthusiast. Looking forward to learning new skills and add them to the list.
+<br>
 
 ![Image](https://github.com/user-attachments/assets/884b572d-67bb-4781-99f1-65297256eb3e)
 
@@ -17,6 +18,7 @@ ysathyasai.dev@gmail.com
 
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/i_am_sathyasai)
 ![Twitter Follow](https://img.shields.io/twitter/follow/ysathyasai?label=Follow)
+[![Twitter Follow](https://img.shields.io/twitter/follow/ysathyasai?label=Follow)](https://twitter.com/ysathyasai)
 [![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/@yejjusatyasai2007)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue)](https://www.linkedin.com/in/yejju-sathya-sai-4a76a9293/)
 <a href="https://github.com/ysathyasai">
