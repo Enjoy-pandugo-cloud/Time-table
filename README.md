@@ -1,10 +1,10 @@
-# AI & ML IV Semester Timetable
+# AI & ML V Semester Timetable
 
 This is a simple web application that displays the AI & ML IV Semester Timetable. The application is optimized for desktop viewing only and includes a dark mode feature.
 
 ## Features
 
-- Displays the timetable for the AI & ML IV Semester.
+- Displays the timetable for the AI & ML V Semester.
 - Optimized for desktop viewing experience.
 - Dark mode toggle for better viewing in low light conditions.
 - Highlights the current period and lecturer.
