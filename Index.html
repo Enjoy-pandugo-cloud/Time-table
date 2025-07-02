@@ -185,7 +185,7 @@
         }
         
         th, td {
-            padding: 12px;
+            padding: 9px;
             text-align: center;
             border: 1px solid #444;
             font-size: 1em;
@@ -511,8 +511,8 @@
             <tr>
                 <td>Wednesday</td>
                 <td class="ml wclass1 wclass2" colspan="2">Machine Learning (AB)</td>
-                <td class="iot wclass3">Internet of Things (AVC)</td>
-                <td class="ims wclass5 wclass4" colspan="2">Imformation Security (KP)</td>
+                <td class="iot wclass3 wclass4" colspan="2">Internet of Things (AVC)</td>
+                <td class="ims wclass5" colspan="1">Imformation Security (KP)</td>
                 <td class="lunch">N</td>
                 <td class="lab wclass8 wclass6 wclass7" colspan="3">Image Processing Lab (MN)</td>
             </tr>
@@ -537,7 +537,8 @@
             
             <tr>
                 <td>Saturday</td>
-                <td class="ip sclass1 sclass2" colspan="2">Image Processing (MN)</td>
+                <td class="ip sclass1">Image Processing (MN)</td>
+                <td class="skill sclass2">Skill Upgradation (MN)</td>
                 <td class="lab sclass3 sclass4 sclass5" colspan="3">Project Work (ALL)</td>
                 <td class="lunch break-text">BREAK</td>
                 <td class="ml sclass6" colspan="1">Machine Learning (AB)</td>
@@ -657,14 +658,15 @@
                 const day = date.getDay();
                 
                 const timeperiod = [
-                    { start: 9 * 60 + 30, end: 11 * 60, class: 1 },
-                    { start: 11 * 60, end: 11 * 60 + 45, class: 2 },
-                    { start: 11 * 60 + 45, end: 12 * 60 + 30, class: 3 },
-                    { start: 12 * 60 + 30, end: 13 * 60 + 15, class: 4 },
+                    { start: 9 * 60 + 30, end: 10 * 15, class: 1 },
+                    { start: 10 * 60 + 15, end: 11 * 60, class: 2 },
+                    { start: 11 * 60, end: 11 * 60 + 45, class: 3 },
+                    { start: 11 * 60 + 45, end: 12 * 60 + 30, class: 4 },
+                    { start: 12 * 60 + 30, end: 13 * 60 + 15, class: 5 },
                     { start: 13 * 60 + 15, end: 13 * 60 + 45, class: "lunch" },
-                    { start: 13 * 60 + 45, end: 14 * 60 + 30, class: 5 },
-                    { start: 14 * 60 + 30, end: 15 * 60 + 15, class: 6 },
-                    { start: 15 * 60 + 15, end: 16 * 60, class: 7 }
+                    { start: 13 * 60 + 45, end: 14 * 60 + 30, class: 6 },
+                    { start: 14 * 60 + 30, end: 15 * 60 + 15, class: 7 },
+                    { start: 15 * 60 + 15, end: 16 * 60, class: 8 }
                 ];
                 
                 document.querySelectorAll('td').forEach(td => td.classList.remove('highlight'));
