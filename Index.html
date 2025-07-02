@@ -139,7 +139,7 @@
         }
         
         .container {
-            width: 90%;
+            width: 95%;
             margin: 0 auto;
             text-align: center;
             padding: 20px 0;
@@ -166,7 +166,7 @@
         }
         
         table {
-            width: 90%;
+            width: 95%;
             margin: 20px auto;
             border-collapse: separate;
             border-spacing: 0;
@@ -304,57 +304,57 @@
             color: #90ee90;
         }
         
-        .python {
+        .ims {
             background-color: #ffb3ba;
             color: #8b0000;
             transition: background-color 0.3s ease, color 0.3s ease;
         }
         
-        body.dark-mode .python {
+        body.dark-mode .ims {
             background-color: #4a1a1a;
             color: #ffb3b3;
         }
         
-        .math {
+        .ime {
             background-color: #ffdd99;
             color: #a0522d;
             transition: background-color 0.3s ease, color 0.3s ease;
         }
         
-        body.dark-mode .math {
+        body.dark-mode .ime {
             background-color: #4a3a1a;
             color: #ffd700;
         }
         
-        .visual {
+        .ml {
             background-color: #c2f0fc;
             color: #007399;
             transition: background-color 0.3s ease, color 0.3s ease;
         }
         
-        body.dark-mode .visual {
+        body.dark-mode .ml {
             background-color: #1a3a4a;
             color: #87ceeb;
         }
         
-        .hardware {
+        .iot {
             background-color: #c1e1c5;
             color: #2c5d63;
             transition: background-color 0.3s ease, color 0.3s ease;
         }
         
-        body.dark-mode .hardware {
+        body.dark-mode .iot {
             background-color: #2a3a2a;
             color: #98fb98;
         }
         
-        .dbms {
+        .ip {
             background-color: #ffd9b3;
             color: #804000;
             transition: background-color 0.3s ease, color 0.3s ease;
         }
         
-        body.dark-mode .dbms {
+        body.dark-mode .ip {
             background-color: #4a2a1a;
             color: #ffa07a;
         }
@@ -454,15 +454,6 @@
             }
         }
     </style>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-80QY1V9G5Z"></script>
-     <script>
-       window.dataLayer = window.dataLayer || [];
-       function gtag(){dataLayer.push(arguments);}
-       gtag('js', new Date());
-
-       gtag('config', 'G-80QY1V9G5Z');
-    </script>
 </head>
 <body>
     <div id="theme-toggle-wrapper">
@@ -482,73 +473,76 @@
         
         <table>
             <tr>
-                <td class="heading" colspan="8">AI & ML IV Semester Timetable</td>
+                <td class="heading" colspan="10">AI & ML IV Semester Timetable</td>
             </tr>
             
             <tr>
                 <th>Day</th>
-                <th>9:30-11:00</th>
+                <th>9:30-10:15</th>
+                <th>10:15-11:00</th>
                 <th>11:00-11:45</th>
                 <th>11:45-12:30</th>
                 <th>12:30-1:15</th>
                 <th>1:15-1:45</th>
-                <th>1:45-3:15</th>
+                <th>1:45-2:30</th>
+                <th>2:30-3:15</th>
                 <th>3:15-4:00</th>
             </tr>
             
             <tr>
                 <td>Monday</td>
-                <td class="visual mclass1">Data Visualization (LR)</td>
-                <td class="math mclass2 mclass3" colspan="2">Advanced Engineering Mathematics (DSN)</td>
-                <td class="python mclass4">Python Programming for AI (KMA)</td>
+                <td class="ims mclass1 mclass2" colspan="2" title="AI-585">Information Security (KP)</td>
+                <td class="ip mclass3 mclass4" colspan="2">Image Processing (MN)</td>
+                <td class="iot mclass5">Internet of Things (AVC)</td>
                 <td class="lunch">L</td>
-                <td class="dbms mclass5 mclass6">Relational Database Management Systems (AB)</td>
-                <td class="skill mclass7">Skill Upgradation (LR)</td>
+                <td class="ime mclass6 mclass7" colspan="2">Industrial Management &Entrepreneurship (YSK)</td>
+                <td class="skill mclass8">Skill Upgradation (YSK)</td>
             </tr>
             
             <tr>
                 <td>Tuesday</td>
-                <td class="python tuclass1">Python Programming for AI (KMA)</td>
-                <td class="dbms tuclass2">Relational Database Management Systems (AB)</td>
-                <td class="math tuclass3">Advanced Engineering Mathematics (DSN)</td>
-                <td class="visual tuclass4">Data Visualization (LR)</td>
+                <td class="iot tuclass1 tuclass2" colspan="2">Internet of Things (AVC)</td>
+                <td class="lab tuclass3 tuclass4 tuclass5" colspan="3">System Administration Lab (YSK)</td>             
                 <td class="lunch">U</td>
-                <td class="lab tuclass5 tuclass6 tuclass7" colspan="2">Relational Database Management Systems Lab (AB)</td>
+                <td class="ims tuclass6 tuclass7" colspan="2">Information Security (KP)</td>
+                <td class="skill tuclass8">Skill Upgradation (KP)</td>
             </tr>
             
             <tr>
                 <td>Wednesday</td>
-                <td class="dbms wclass1">Relational Database Management Systems (AB)</td>
-                <td class="hardware wclass2">Computer Hardware and Networking (BP)</td>
-                <td class="visual wclass3 wclass4" colspan="2">Data Visualization (LR)</td>
+                <td class="ml wclass1 wclass2" colspan="2">Machine Learning (AB)</td>
+                <td class="iot wclass3">Internet of Things (AVC)</td>
+                <td class="ims wclass5 wclass4" colspan="2">Imformation Security (KP)</td>
                 <td class="lunch">N</td>
-                <td class="lab wclass5 wclass6 wclass7" colspan="2">Python Programming for AI Lab (KMA)</td>
+                <td class="lab wclass8 wclass6 wclass7" colspan="3">Image Processing Lab (MN)</td>
             </tr>
             
             <tr>
                 <td>Thursday</td>
-                <td class="hardware thclass1">Computer Hardware and Networking (BP)</td>
-                <td class="python thclass2 thclass3" colspan="2">Python Programming for AI (KMA)</td>
-                <td class="skill thclass4">Skill Upgradation (KMA)</td>
+                <td class="ip thclass1 thclass2" colspan="2">Image Processing (MN)</td>
+                <td class="lab thclass3 thclass4 thclass5" colspan="3">Machine Learning Lab (AB)</td>
                 <td class="lunch">C</td>
-                <td class="lab thclass5 thclass6 thclass7" colspan="2">Computer Hardware and Networking Lab (BP)</td>
+                <td class="ime thclass6">Industrial Management & Entreprenuership (YSK)</td>
+                <td class="skill thclass7 thclass8" colspan="2">Skill Upgradation (AVC)</td>
             </tr>
             
             <tr>
                 <td>Friday</td>
-                <td class="math fclass1">Advanced Engineering Mathematics (DSN)</td>
-                <td class="skill fclass2 fclass3" colspan="2">Skill Upgradation (LR)</td>
-                <td class="skill fclass4">Skill Upgradation (BP)</td>
+                <td class="ime fclass1 fclass2" colspan="2">Industrial Management & Entreprenuership (YSK)</td>
+                <td class="ml fclass3 fclass4" colspan="2">Machine Learning (ML)</td>
+                <td class="skill fclass5">Skill Upgradation (KP)</td>
                 <td class="lunch">H</td>
-                <td class="lab fclass5 fclass6 fclass7" colspan="2">Data Visualization Lab (LR)</td>
+                <td class="lab fclass6 fclass7 fclass8" colspan="3">Internet of Things Lab (LR)</td>
             </tr>
             
             <tr>
                 <td>Saturday</td>
-                <td class="hardware sclass1">Computer Hardware and Networking (BP)</td>
-                <td class="skill sclass2 sclass3 sclass4" colspan="3">Skill Upgradation (AB)</td>
+                <td class="ip sclass1 sclass2" colspan="2">Image Processing (MN)</td>
+                <td class="lab sclass3 sclass4 sclass5" colspan="3">Project Work (ALL)</td>
                 <td class="lunch break-text">BREAK</td>
-                <td class="lab sclass5 sclass6 sclass7" colspan="2">Employability Skills Lab (VR)</td>
+                <td class="ml sclass6" colspan="1">Machine Learning (AB)</td>
+                <td class="skill thclass7">Skill Upgradation (AB)</td>
+                <td class="skill thclass8">Skill Upgradation (YSK)</td> 
             </tr>
         </table>
         
@@ -561,25 +555,25 @@
                 <td>AB</td>
                 <td>ASHEERA BEGUM</td>
             </tr>
-            <tr class="BP">
-                <td>BP</td>
-                <td>B PUSHYAMI</td>
+            <tr class="ALL">
+                <td>ALL</td>
+                <td>ALL EC&AIML DEPARTMENT STAFF</td>
             </tr>
-            <tr class="DSN">
-                <td>DSN</td>
-                <td>D SATYANANDAM</td>
+            <tr class="AVC">
+                <td>AVC</td>
+                <td>A VIKRAM CHAKRAVORTHY</td>
+            </tr>
+            <tr class="KP">
+                <td>KP</td>
+                <td>K PRAMIL</td>
             </tr>
-            <tr class="KMA">
-                <td>KMA</td>
-                <td>KM ARAVIND KUMAR</td>
+            <tr class="MN">
+                <td>MN</td>
+                <td>M NARENDER</td>
             </tr>
-            <tr class="LR">
-                <td>LR</td>
-                <td>N LACHI RAM</td>
-            </tr>
-            <tr class="VR">
-                <td>VR</td>
-                <td>VIJAYA RAMALA</td>
+            <tr class="YSK">
+                <td>YSK</td>
+                <td>Y SAI KUMAR</td>
             </tr>
             <tr class="enjoy">
                 <td>ENJOY</td>
